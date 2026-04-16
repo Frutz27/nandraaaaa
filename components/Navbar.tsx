@@ -49,7 +49,7 @@ const Navbar: React.FC<NavbarProps> = ({ cartCount, onCartOpen }) => {
           
           <Link 
             to="/" 
-            className="text-3xl font-black font-orbitron tracking-tighter bg-clip-text text-transparent bg-cyber-gradient hover:opacity-80 transition-opacity"
+            className="inline-block text-3xl font-black font-orbitron tracking-tighter bg-clip-text text-transparent bg-cyber-gradient hover:opacity-80 transition-opacity"
           >
             NDRAASTEP
           </Link>

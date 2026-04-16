@@ -42,7 +42,7 @@ const Home: React.FC<HomeProps> = ({ onAddToCart }) => {
             </span>
             <h1 className="text-7xl lg:text-9xl font-black font-orbitron tracking-tighter leading-[0.85] text-white uppercase">
               DEEP <br />
-              <span className="text-glow-blue bg-clip-text text-transparent bg-cyber-gradient">STEALTH</span>
+              <span className="inline-block text-glow-blue bg-clip-text text-transparent bg-cyber-gradient">STEALTH</span>
             </h1>
           </motion.div>
           

@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-orbitron: "Orbitron", sans-serif;
+  
+  --color-cyber-blue: #00f2ff;
+  --color-neon-purple: #bc13fe;
+  --color-obsidian: #050505;
+  
+  --background-image-cyber-gradient: linear-gradient(135deg, #00f2ff, #bc13fe);
+}
+
+@layer base {
+  body {
+    @apply bg-obsidian text-white font-sans overflow-x-hidden;
+  }
+}
+
+@layer utilities {
+  .text-glow-blue {
+    text-shadow: 0 0 10px rgba(0, 242, 255, 0.5);
+  }
+  
+  .bg-cyber-gradient {
+    background: linear-gradient(135deg, #00f2ff, #bc13fe);
+  }
+
+  .bg-clip-text {
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  
+  .diagonal-cut {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+  }
+  
+  .diagonal-cut-reverse {
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  .custom-cursor {
+    pointer-events: none;
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(0, 242, 255, 0.05) 0%, transparent 70%);
+    border-radius: 50%;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+  }
+}

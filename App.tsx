@@ -136,7 +136,7 @@ const App: React.FC = () => {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-px bg-gradient-to-r from-transparent via-cyan-500 to-transparent opacity-20" />
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 relative z-10">
           <div className="space-y-6">
-            <h2 className="text-3xl font-black font-orbitron tracking-tighter bg-clip-text text-transparent bg-cyber-gradient">
+            <h2 className="inline-block text-3xl font-black font-orbitron tracking-tighter bg-clip-text text-transparent bg-cyber-gradient">
               NDRAASTEP
             </h2>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
